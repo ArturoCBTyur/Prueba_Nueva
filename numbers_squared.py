@@ -18,6 +18,8 @@ def main():
     # print(f"Values in ur list are : {list_squares}")
     # print(f"Pointersin ur list are: {pointers_list}")
 
+    # Same but in oneline
+
     squares = [i**2 for i in range(1, 101) if i % 3 != 0]
 
 if __name__ == "__main__":
