@@ -18,5 +18,7 @@ def main():
     print(f"Values in ur list are : {list_squares}")
     print(f"Pointersin ur list are: {pointers_list}")
 
+    print("This is all...")
+
 if __name__ == "__main__":
     main()
