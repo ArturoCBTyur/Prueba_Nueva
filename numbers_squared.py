@@ -30,7 +30,7 @@ def main():
 
     print("Second part")
 
-    challenge = [j**2 for j in range(1, 101) if j % 4 != 0 if j % 6 != 0 if j % 9 != 0]
+    challenge = [j**2 for j in range(1, 101) if j % 4 == 0 if j % 6 == 0 if j % 9 == 0]
 
     print(challenge)
 
