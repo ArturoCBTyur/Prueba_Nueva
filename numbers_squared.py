@@ -30,7 +30,7 @@ def main():
 
     print("Second part")
 
-    challenge = [j for j in range(1, 101) if j % 36 == 0]
+    challenge = [j for j in range(1, 100000) if j % 36 == 0]
 
     print(challenge)
 
