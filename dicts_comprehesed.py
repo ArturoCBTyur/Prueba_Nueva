@@ -3,8 +3,8 @@
 def main():
     new_dict = {}
     for iterator in range(1, 101):
-        solve = iterator**2
-        new_dict.update(iterator = solve)
+        solve = iterator**3
+        new_dict[iterator] = solve
         print(f"Current iterator: {iterator} && Current value: {solve}")
 
     print(new_dict)
