@@ -22,7 +22,7 @@ def main():
 
     squares = [i**2 for i in range(1, 101) if i % 3 != 0]
 
-    print("This is all...")
+    print("This is all in this part")
 
 if __name__ == "__main__":
     main()
