@@ -4,9 +4,12 @@ def divisors(num):
     return divisors
 
 def main():
-    num = int(input("Digita un número: "))
-    print(divisors(num))
-    print("Fin owo5")
+    try:
+        num = int(input("Digita un número: "))
+        print(divisors(num))
+        print("Fin owo5")
+    except ValueError:
+        print("Ese no es un numero. Digita un numero")
 
 
 if __name__ == "__main__":
