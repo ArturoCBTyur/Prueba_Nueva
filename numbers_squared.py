@@ -20,7 +20,11 @@ def main():
 
     # Same but in oneline
 
-    squares = [i**2 for i in range(1, 101) if i % 3 != 0]
+    squares = [i**2 for i in range(1, 100000) if i % 3 != 0]
+
+    # Python Task
+
+    challenge = [j**2 for j in range(1, 101) if j % 4 != 0 if j % 6 != 0 if j % 9 != 0]
 
     print("This is all...")
 
