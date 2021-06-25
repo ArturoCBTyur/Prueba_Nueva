@@ -20,13 +20,17 @@ def main():
 
     # Same but in oneline
 
-    squares = [i**2 for i in range(1, 100000) if i % 3 != 0]
+    print("First part")
+
+    squares = [i**2 for i in range(1, 100) if i % 3 != 0]
 
     print(squares)
 
     # Python Task
 
-    challenge = [j**2 for j in range(1, 101) if j % 4 != 0 if j % 6 != 0 if j % 9 != 0]
+    print("Second part")
+
+    challenge = [j for j in range(1, 100000) if j % 36 == 0]
 
     print(challenge)
 
