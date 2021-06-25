@@ -71,6 +71,8 @@ DATA = [
     },
 ]
 
+# Prepare to merge
+
 def main():
     all_python_dev = [worker["name"] for worker in DATA if worker["language"] == "python"]
     for worker in all_python_dev:
