@@ -1,5 +1,7 @@
 # Dictionaries Comprehesed
 
+# Now we merge the same code but in one line
+
 def main():
     new_dict = {}
     for iterator in range(1, 101):
