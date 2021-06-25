@@ -14,5 +14,11 @@ def main():
 
     print(new_dict)
 
+    # The task number 2
+
+    task_dict = {j: round(j**(1/2), 2) for j in range(1, 1001)}
+
+    print(task_dict)
+
 if __name__ == "__main__":
     main()
