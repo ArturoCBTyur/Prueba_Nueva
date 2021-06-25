@@ -1,4 +1,4 @@
-import functools # To reduce
+import functools
 
 def main():
     # First type function -> filter
