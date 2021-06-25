@@ -7,5 +7,7 @@ def main():
         new_dict.update(iterator = solve)
         print(f"Current iterator: {iterator} && Current value: {solve}")
 
+    print(new_dict)
+
 if __name__ == "__main__":
     main()
