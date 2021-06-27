@@ -1,6 +1,6 @@
 def main():
     my_list = [1, "Hello", True, 4.5]
-    my_dict = {"firstname": "Yhojan Daniel","lastname": "Jara Eugenio"}
+    my_dict = {"firstname": "Yhojan DJE","lastname": "Jara Eugenio"}
 
     super_list =[
         {"firstname": "Yhojan","lastname": "Jara"},
